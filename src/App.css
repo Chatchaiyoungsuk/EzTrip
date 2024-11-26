@@ -1,0 +1,42 @@
+/* app.css */
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    padding: 0;
+    display: block;
+    background-color: #fff; /* พื้นหลังของ body ยังเป็นสีขาว */
+  }
+}
+
+/* กำหนดการตกแต่งให้กับ app เท่านั้น */
+.app {
+  width: 100%;
+  padding: 0;
+  max-width: 430px; /* ขนาดสูงสุดของ app */
+  margin: 0 auto; /* ทำให้แอปอยู่ตรงกลาง */
+  background-color: #000; /* พื้นหลังของ app เป็นสีดำ */
+  color: #fff; /* กำหนดสีตัวอักษรให้เป็นสีขาวเพื่ออ่านง่ายขึ้นบนพื้นดำ */
+}
+
+/* ปรับขนาดของ routing control */
+.leaflet-routing-container {
+  font-size: 12px; /* ปรับขนาดตัวอักษร */
+  height: auto; /* ปรับความสูง */
+  width: 250px; /* ปรับความกว้าง */
+}
+
+/* ปรับขนาดของปุ่มที่ใช้ใน routing */
+.leaflet-routing-container .leaflet-routing-button {
+  width: 15px;
+  height: 15px;
+}
+
+/* ปรับขนาดของปุ่มปิด */
+.leaflet-routing-container .leaflet-routing-close-button {
+  font-size: 10px;
+}
+
+/* ปรับขนาดของเส้นทางที่แสดง */
+.leaflet-routing-container .leaflet-routing-route {
+  font-size: 10px; /* ขนาดตัวอักษร */
+}
